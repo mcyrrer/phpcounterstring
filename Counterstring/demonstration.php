@@ -17,6 +17,7 @@ function echoForm()
     {
         $message = "Number of chars to high. Maximum is 100000.";
     }
+    $page = $_SERVER["PHP_SELF"];
     echo '
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -29,7 +30,7 @@ function echoForm()
 <body>
 <div id="container">
     <div><h1>Counterstring</h1></div>
-<form action="index.php" method="post">
+<form action="'. $page.'" method="post">
 
            <fieldset>
                 <legend>Create Counterstring</legend>

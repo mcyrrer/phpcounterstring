@@ -9,8 +9,7 @@ class CounterString
     {
         $position_marker_character = "*";
         $output = "";
-
-        if ($length == 0)
+        if ($length <= 0)
             return "";
         elseif ($length == 1)
             return "1";
