@@ -28,7 +28,7 @@ function echoForm()
 
 <body>
 <div id="container">
-    <div><H1>Counterstring</H1></div>
+    <div><h1>Counterstring</h1></div>
 <form action="index.php" method="post">
 
            <fieldset>
